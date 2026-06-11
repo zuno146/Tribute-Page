@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tributers</title>
+    <style>
+        *{
+            margin: 0;
+        }
+     nav {
+    background-color: #5d4037;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 40px;
+}
+
+nav h2 {
+    color: #ffcc80;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff3e0;
+    font-size: 17px;
+}
+
+nav ul li a:hover {
+    color: #ffcc80;
+}
+/* Hero Section */
+section {
+    background: #fff3e0;
+    min-height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 80px;
+    gap: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Text */
+section h1 {
+    font-size: 45px;
+    color: #5d4037;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 20px;
+    color: #6d4c41;
+    max-width: 500px;
+    line-height: 1.6;
+}
+
+
+/* Image */
+section img {
+    width: 350px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 8px solid #8d6e63;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+
+/* Mobile */
+@media(max-width:768px){
+
+    section {
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 20px;
+    }
+
+    section h1 {
+        font-size: 32px;
+    }
+
+    section img {
+        width: 280px;
+        height: 350px;
+    }
+}
+/* Footer */
+footer {
+    background-color: #5d4037;
+    color: #fff3e0;
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 110px;
+}
+
+footer h3 {
+    color: #ffcc80;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+footer p {
+    font-size: 16px;
+    margin: 8px;
+}
+
+footer .copy {
+    color: #d7ccc8;
+    font-size: 14px;
+}
+footer .dua {
+    color: #ffcc80;
+    font-style: italic;
+    font-size: 17px;
+    margin: 15px 0;
+}
+    </style>
+</head>
+<body>
+    <nav>
+    <h2>Tributers</h2>
+    <ul>
+        <li><a href="life.html">Life</a></li>
+        <li><a href="acheivments.html">Achievements</a></li>
+        <li><a href="qout.html">Quotes</a></li>
+    </ul>
+</nav>
+<section>
+    <h1>Remembering Quaid-e-Azam Muhammad Ali Jinnah</h1>
+
+<p>The founder of Pakistan who led the struggle for independence.</p>
+<img src="Quaid-e-Azam.jpg" alt="image">
+
+</section>
+<footer>
+    <h3>Tributers</h3>
+
+    <p>
+        Made with respect for Quaid-e-Azam Muhammad Ali Jinnah.
+    </p>
+
+    <p class="dua">
+        May Allah bless his soul and grant him the highest place in Jannah.
+    </p>
+
+    <p class="copy">
+        © 2026 All Rights Reserved
+    </p>
+</footer>
+</body>
+</html>
